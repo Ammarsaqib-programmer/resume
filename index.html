@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333; /* Text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: lightsteelblue;
+            padding: 30px;
+            text-align: center;
+            width: 100%;
+        }
+        h1 {
+            color: white;
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: all 0.3s ease; /* Smooth transition for hover effect */
+        }
+        nav a:hover {
+            background-color: #555; /* Darken the background on hover */
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        section {
+            width: 100%;
+            margin-bottom: 20px;
+            background-color: white; /* White background for sections */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        section > div {
+            flex: 1;
+            text-align: center;
+        }
+        h2 {
+            color: lightsteelblue; /* Section header color */
+        }
+        p {
+            line-height: 1.6; /* Increased line height for better readability */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: blue;
+            text-decoration: none;
+            margin: 5px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline; /* Underline links on hover */
+        }
+        footer {
+            background-color: lightsteelblue;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ammar Saqib</h1>
+    </header>
+   
+    <main>
+        <section id="portfolio">
+            <h2>Portfolio</h2> <!-- Added heading for portfolio section -->
+        </section>
+        <section id="about">
+            <div>
+                <h2>About Me</h2>
+                <p>Welcome to my portfolio!</p>
+            </div>
+            <div>
+                <img src="2592285.jpg" width="450" alt="Ammar Saqib's Photo"> <!-- Adjust the width as needed -->
+            </div>
+        </section>
+        <section id="portfolio-items">
+            <h2>About me</h2>
+            <p>I am Ammar Saqib and I am a Front End Developer and also a C++ and Python programmer.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:ammarsaqib15june@gmail.com">ammarsaqib15june@gmail.com</a></p>
+                <p>Phone: <a href="tel:+923289865025">123-456-7890</a></p>
+                <p>
+                    <a href="https://wa.me/?phone=+923302398916" title="WhatsApp Chat">
+                        <img src="whatsapp.jpg" alt="WhatsApp Icon" width="30">
+                    </a>
+                    <a href="mailto:ammarsaqib15june@gmail.com" title="Send Email">
+                        <img src="50150558.jpg" alt="Email Icon" width="30">
+                    </a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ammar Saqib. All rights reserved.</p>
+    </footer>
+</body>
+</html>
